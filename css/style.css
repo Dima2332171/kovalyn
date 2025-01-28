@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Основной контент */
+.hero {
+    background: url('../images/project.png') no-repeat center center/cover;
+    color: white;
+    height: 500px;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.project-details {
+    padding: 2rem 0;
+}
+
+.project-details h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-details .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+.project-details img {
+    max-width: 50%;
+    /*margin-right: 2rem;*/
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+
+
+
+.contact {
+    padding: 4rem 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.contact-info {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /*height:500px;*/
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+
+.download-links {
+    list-style: none;
+    padding: 0;
+    /*height: 550px;*/
+}
+
+.download-links li {
+    margin: 1rem 0;
+}
+
+.download-links a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.download-links a:hover {
+    background: #0056b3;
+}
